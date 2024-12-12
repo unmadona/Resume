@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    --hc: #45a9fa;
+}
+body{
+    background-color: #EEE;
+    font-family: "Roboto", sans-serif;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: var(--hc);
+    height: 45px;
+    margin: auto;
+    padding: 20px;
+
+}
+.juel-rana{
+    font-family: "Tangerine", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.profile-image:hover{
+    border: 3px solid rgb(248, 103, 6);
+    animation: imagehover;
+    animation-duration: 2s;
+    animation: ease-out;
+
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1{
+    color: white;    
+}
+
+.header-bio h3:hover, h1:hover{
+    color: #fa4f00;
+    cursor: pointer;
+}
+
+.header-contact{
+    float: right;
+    text-align:end;
+    padding-top: 30px;
+    
+
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    color: white
+}
+.header-contact a:hover{
+    display: block;
+    color: #fa4f00;
+}
+.header-contact p{
+    display: block;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+hr:hover{
+    border-color: #fa4f00;
+}
+
+/* end of heading */
+
+
+
+
+
+/* main body start here */
+
+
+.left{
+    margin-top: 30px;
+    width: 40%;
+    float: left;
+    
+}
+.career-objective{
+    border-right: 3px solid tomato;
+}
+.career-objective:hover{
+    cursor: pointer;
+    border-right: 3px solid var(--hc);
+
+}
+.right{
+    margin-top: 30px;
+    width: 60%;
+    float: left;
+}
+h4{
+    border-bottom: 3px solid  var(--hc);
+    width: 90%;
+    margin-bottom: 20px; 
+    font-size: 20px;
+}
+h4:hover{
+    border-bottom: 3px solid  tomato;
+    cursor: pointer;
+    color: var(--hc);
+}
+.left .career-objective p{
+    margin-top: 15px;
+    padding-right: 10px;
+    text-align: justify;
+        
+}
+
+/* end of Career-Objective */
+
+/* start education section here  */
+
+.section{
+    margin: 30px 0px;
+    text-align: justify;
+    padding-right: 10px;
+    border-right: 3px solid tomato;
+    
+}
+
+.section:hover{
+    border-right: 3px solid var(--hc);
+    cursor: pointer;
+}
+.section h5{
+    padding-left: 25px;
+}
+.section h5:hover{
+    color: tomato;
+}
+.section .nowrap{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    font-size: 13px;
+    display: block;
+    margin: 10px 0px;
+}
+.section .nowrap:hover
+{color: tomato;
+}
+.left .section p{    
+    font-size: 13px;
+}
+.fa-user-graduate, .fa-graduation-cap, .fa-book{    
+    color: #45a9fa;        
+}
+.fa-person-chalkboard, .fa-id-card, .fa-briefcase{
+    color: tomato;
+}
+
+/* end of education section here */
+
+/* skill start here */
+.soft-skills{
+    border: none;
+    margin: 0;
+    font-size: 15px;
+    
+}
+.soft-skills:hover{
+    border: none;
+}
+
+.skills{
+    text-align: justify;
+    font-size: 14px;
+
+}
+
+/*
+-------------------------------------------------------------------------
+ Right Section start here 
+--------------------------------------------------------------------------
+*/
+.fa-book-atlas{
+    color: tomato;
+}
+
+.section-right{
+    padding-left: 10px;
+    text-align: justify;
+    border-left: 3px solid tomato;
+    margin-left: 2px;
+    
+}
+.section-right:hover{
+    border-left: 3px solid var(--hc);
+    cursor: pointer;
+
+}
+.section-right h6{
+    float: left;
+    font-size: 16px;
+    padding-right: 15px;
+}
+.section-right .research{
+    font-size: 15px;
+    width: 95%;
+}
+.section-right .research:hover{
+    border-right: 3px solid tomato;
+}
+
+
+.north:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.training{
+    padding-left: 90px;
+    padding-bottom: 30px;
+    cursor: auto;
+}
+.training:hover{
+    border-right: 3px solid tomato;
+ 
+}
+
+.section-right .training-name{
+    font-size: 17px;    
+}
+.training-center, .training-duration{
+    font-size: 15px;
+}
+
+.section-right a{
+    color: black;
+
+}
+.section-right h4{
+    cursor: auto;
+    text-align: left;
+}
+
+.section-right h5{
+    cursor: auto;
+    padding-top: 7px; 
+    font-size: 20px;
+}
+
+.training a{
+    text-decoration: none;
+}
+
+
+
+/* Extra Curricular Activities & Community Involvement */
+
+.participant-in-programming{
+    padding-bottom: 100px;
+    
+    
+}
+ul li:hover{
+    border-right:3px solid tomato;
+}
+
+.right-left{
+    width: 40%;
+    font-weight: bold;    
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.right-left p{
+    text-align: left;
+    font-size: 16px;
+    
+}
+.right-right{
+    width: 55%;
+    margin-left: 40%;
+    
+
+}
+.right-right ul li{
+    list-style-type: disc;
+    font-size: 15px;
+    text-align: left;
+}
+.org{
+    border-left: 3px solid tomato;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+.org:hover{
+    border-left: 3px solid var(--hc);
+
+
+}
+
+.Organizational-Skills:hover{
+    color: var(--hc);
+    cursor: pointer;
+}
+
+.Participant-in-Programming:hover{
+color: var(--hc);
+cursor: pointer;
+
+}
+
+/* reference start from here */
+
+.reference{
+    float: left;
+}
+.reference:hover .teacher-name, .reference:hover .designation{
+    color: tomato
+    
+}
+.reference:hover{
+    border-right: 3px solid tomato ;
+}
+.teacher-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.mahbub-sir{
+    text-decoration: none;
+    width: 100%;    
+    margin-left: 30%;
+    float: left;
+}
+
+
+
+
+footer{
+    background-color: var(--hc);
+    height: 50px;
+    clear: both;
+    margin: auto;
+}
+.year p{
+    background-color: var(--hc);
+    display: block;
+    margin-left: 30%;
+    padding-top: 10px;
+
+}
+
+.mahbub-sir-img{
+    width: 100%;
+    float: left;
+    margin: 0;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.mahbub-sir-img:hover{
+    border: 3px solid tomato;
+    box-sizing: border-box;
+    transition: m;
+}
+
+.mahbub-sir-img-container{
+    width: 30%;
+    float: left;
+}
